@@ -1,0 +1,11 @@
+<% include partials/header %>
+  <div class="Login-form">
+    <form action="/login/logged" method="post">
+      <input type="text" name="team_title" placeholder="Team Name">
+      <input type="text" name="team_manager" placeholder="Password">
+      <p name="msg"></p>
+      <button type="submit">Login</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+<% include partials/footer %>
