@@ -1,7 +1,7 @@
 <% include partials/header%>
 <div class="register-form">
   <form method="post" action="/register/signed">
-    <h1 class="titl">Team Registration Form</h1>
+    <h1 class="titl"><b> Register your Team Now!</b></h1>
     <input name="team_title" id="title" type="text" placeholder="Team Official Name">
     <input name="team_location" id="location" type="text" placeholder="Team Location of origin">
     <input id="year" type="date" placeholder="origin date">
@@ -56,15 +56,9 @@
     <input id="pl15" class="playerfield" type="text" placeholder="Player 15">
     <input id="pl15skill" class="skills" type="text" placeholder="Skills">
     <input id="pl15num" class="numbers" type="text" placeholder="Phone number">
-    <input id="pl16" class="playerfield" type="text" placeholder="Player 16">
-    <input id="pl16skill" class="skills" type="text" placeholder="Skills">
-    <input id="pl16num" class="numbers" type="text" placeholder="Phone number">
-    <input id="pl17" class="playerfield" type="text" placeholder="Player 17">
-    <input id="pl17skill" class="skills" type="text" placeholder="Skills">
-    <input id="pl17num" class="numbers" type="text" placeholder="Phone number">
 
-    <button type="submit" id="supmit">Register @ Crick@</button>
-    <button type="reset" id="klear">Clear</button>
+    <button type="submit" id="supmit" class="btn btn-success">Register</button>
+    <button type="reset" id="klear" class="btn btn-danger">Clear</button>
   </form>
 </div>
 <% include partials/footer%>
