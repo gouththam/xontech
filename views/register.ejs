@@ -1,7 +1,7 @@
 <% include partials/header%>
 <div class="register-form">
   <form method="post" action="/register/signed">
-    <h1 class="titl"><b> Register your Team Now!</b></h1>
+    <h2 class="titl"> Register your <span>Team Now!</span></h2>
     <input name="team_title" id="title" type="text" placeholder="Team Official Name">
     <input name="team_location" id="location" type="text" placeholder="Team Location of origin">
     <input id="year" type="date" placeholder="origin date">
@@ -57,8 +57,8 @@
     <input id="pl15skill" class="skills" type="text" placeholder="Skills">
     <input id="pl15num" class="numbers" type="text" placeholder="Phone number">
 
-    <button type="submit" id="supmit" class="btn btn-success">Register</button>
-    <button type="reset" id="klear" class="btn btn-danger">Clear</button>
+    <button type="submit" id="supmit" class="btnRR"><b> <span class="glyphicon glyphicon-pencil"> Register</span></b></button>
+    <button type="reset" id="klear" class="btnRL"><b><span class="glyphicon glyphicon-trash"> Clear</span></b></button>
   </form>
 </div>
 <% include partials/footer%>

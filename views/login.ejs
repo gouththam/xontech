@@ -1,11 +1,12 @@
 <% include partials/header %>
   <div class="Login-form">
     <form action="/login/logged" method="post">
+      <h2 class="logtitle"> Login!<br>To your Account</h2>
       <input type="text" name="team_title" placeholder="Team Name">
       <input type="text" name="team_manager" placeholder="Password">
       <p name="msg"></p>
-      <button type="submit">Login</button>
-      <button type="reset">Reset</button>
+      <button type="submit" class="btnL"><span class="glyphicon glyphicon-log-in"> Login</span></button>
+      <button type="reset" class="btnR"><span class="glyphicon glyphicon-refresh"> Reset</span></button>
     </form>
   </div>
 <% include partials/footer %>
